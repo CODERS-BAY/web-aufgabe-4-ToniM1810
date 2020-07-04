@@ -43,9 +43,37 @@
                 <p>Weiterempfehlung:</p>
                 <input type="radio" name="Weiterempfehlung" value="ja">ja
                 <input type="radio" name="Weiterempfehlung" value="nein">nein
-            </form>
+                </form>
             </div>
-        </form>
+            <div>
+            <label for="Lieblingstierart">Welche Tierart hat dir am besten gefallen</label>
+            <input type="text" list="intliste" name="Lieblingstierart" id="Lieblingstierart">
+            <datalist id="intliste">
+                <option value="Säugetiere">
+                <option value="Reptilien">
+                <option value="Vögel">
+                <option value="Fische">
+            </datalist>
+            </div>
+            
+            <label for="kommentar">Kommentar</label>
+            <textarea rows="5" cols="20" required id="kommentar" name="description"></textarea>
+
+            <div>
+                <label for="besucherinfo">Besucherinfo</label>
+                <select name="besucherinfo" id="besucherinfo">
+                    <option value="1">Familienausflug</option>
+                    <option value="2">Allein unterwegs</option>
+                    <option value="3">Gruppenausflug</option>
+                    <option value="4">Ausflug mit Freunden</option>
+                    <option value="5">sonstiges</option>
+                    </select>
+            </div>
+            <div>
+            <input type="submit" value="Absenden">
+            <input type="reset" value="Reset">
+            </div>
+            </form>
     </body>
 
 
