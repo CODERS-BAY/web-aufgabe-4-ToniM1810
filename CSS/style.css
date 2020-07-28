@@ -1,0 +1,64 @@
+body {
+    padding: 2rem; 
+    font-family: "cursive", sans-serif;
+   
+}
+h1 {
+    font-size: 4rem;
+    font-weight: normal; 
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+    background-color: rgb(247, 218, 218); 
+}
+
+article {
+    width: auto;
+}
+
+.flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+main {
+    display: block; 
+    align-items: center; 
+    padding: 6rem; 
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none; 
+    padding: 2rem; 
+    width: 50px; 
+    text-align: center; 
+}
+nav a{
+    color: black;
+    text-decoration: none; 
+    display: block;
+    padding: 2rem; 
+    margin-right: 17.5rem; 
+    font-size: 20px;
+}
+
+.Titel {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+Table {
+    border: thin solid black; 
+    border-collapse: separate;
+    border-spacing: 2px; 
+    table-layout: auto;
+    max-width: 100%;
+}
+
+footer {
+padding: 1rem; 
+margin-top: 1rem;
+
+}
